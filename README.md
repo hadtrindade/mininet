@@ -9,5 +9,5 @@
 1. `docker run -it --rm --name nome_do_container --privileged -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v /$XAUTHORITY:/root/.Xauthority -v /scripts:/root  nome:tag nome_script.py arg1 arg2 ...`
 
 ## Scripts para criação de topologias usando mininet
-1. gerando uma topogia com 2 borderleaf, 4 spines e 6 leafs
+1. ### gerando uma topogia com 2 borderleaf, 4 spines e 6 leafs
 1. `sudo python topo_SpineLeaf_TC_Iperf.py 4 6`
