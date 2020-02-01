@@ -10,4 +10,5 @@
 
 ## Scripts para criação de topologias usando mininet
 1. ### Gerando uma topogia com 2 borderleaf, 4 spines e 6 leafs
+1. [Scripts](https://github.com/hadtrindade/mininet/tree/master/Scripts)
 1. `sudo python topo_SpineLeaf_TC_Iperf.py 4 6`
