@@ -6,8 +6,8 @@ WORKDIR /root
 COPY docker-entry-point.sh /
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    python \
-    python-ryu \
+    python3 \
+    python3-ryu \
  && chmod +x /docker-entry-point.sh
 
 EXPOSE 6633 6653
